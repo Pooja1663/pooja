@@ -1,15 +1,42 @@
-// let div=document.createElement("div")
-// console.log(div);
+<!DOCTYPE html>
+<html>
 
-// document.body.appendChild(div)
-// div.innerHTML="<h1>Bangloreee</h1>"
+<head>
+    <title>HTML Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-// //css
-// div.style.backgroundColor="blue"
+<body>
+    <div class="main">
+        <h1>GeeksforGeeks</h1>
+        <h3>Enter your login credentials</h3>
 
+        <form action="">
+            <label for="first">
+                Username:
+            </label>
+            <input type="text" id="first" name="first" 
+                placeholder="Enter your Username" required>
 
-// let div=document.createElement("div")
-// console.log(div);
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" 
+                placeholder="Enter your Password" required>
 
-// document.body.appendChild(div)
-//  div.innerHTML=
+            <div class="wrap">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+        
+        <p>Not registered?
+            <a href="#" style="text-decoration: none;">
+                Create an account
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>
